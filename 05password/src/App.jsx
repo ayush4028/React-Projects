@@ -21,6 +21,7 @@ export default function App() {
     setPassword(pass);
   }, [length, numberAllowed, charAllowed]);
 
+  //passwordGenerator();
   useEffect(() => {
     passwordGenerator();
   }, [length, charAllowed, numberAllowed, passwordGenerator]);
